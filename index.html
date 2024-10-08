@@ -60,22 +60,67 @@
       .nav-link-container {
         margin-right: 20px;
       }
+      /*Styling header*/
+      header {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+      }
+      /*Styling Main*/
+      main {
+        display: flex;
+        flex-direction: row;
+      }
+      main section {
+        text-align: center;
+        width: 33.33%;
+        height: 300px;
+        border: 1px solid #000;
+      }
     </style>
     <title>Arvin Portfolio</title>
   </head>
   <body>
     <nav>
-        <a href=""><img style="width: 20px; height: auto;"src="images/arvin-favicon.png" alt="logo" /></a>
-        <div class="nav-link-container">
+      <a href=""
+        ><img
+          style="width: 20px; height: auto"
+          src="images/arvin-favicon.png"
+          alt="logo"
+      /></a>
+      <div class="nav-link-container">
         <a href="">Home</a>
         <a href="">Projects</a>
         <a href="">Articles</a>
         <a href="">About me</a>
-        </div>
-        
-    <header></header>
+      </div>
+    </nav>
+    <header>
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </header>
     <main>
-      
+      <section>
+        <h2>Projects</h2>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <b>Bachelor of Science in Computer Engineering</b>
+        <p>Balayan, Batangas, Philippines</p>
+        <p>2025</p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>Figma</li>
+        </ul>
+      </section>
     </main>
     <footer></footer>
   </body>
