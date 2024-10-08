@@ -76,10 +76,27 @@
       }
       main section {
         text-align: start;
-        padding: 10px;
+        padding: 40px;
         width: 33.33%;
         height: 300px;
         border: 1px solid #000;
+      }
+      .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .card-container {
+        width: 25%;
+        height: 150px;
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 10px;
+      }
+      .reviews {
+        padding: 40px;
       }
     </style>
     <title>Arvin Portfolio</title>
@@ -112,10 +129,10 @@
           A static web application for a local coffee shop that has product
           preview, ratings and contact information.
         </p>
-        <hr>
+        <hr />
         <b>Hair Grooming</b>
         <p>A dynamic website that manages customers haircut schedule.</p>
-        <hr>
+        <hr />
       </section>
       <section>
         <h2>Work Experience</h2>
@@ -133,6 +150,36 @@
         <hr />
       </section>
     </main>
+    <section class="reviews">
+      <h2>Reviews from my teachers</h2>
+      <div class="cards">
+        <div class="card-container">
+          <p>
+            Arvin is very dedicated students. He is proactive and has initiative
+            on finishing tasks.
+          </p>
+          <p>Eleazar Magsino</p>
+          <p>Principal III</p>
+        </div>
+        <div class="card-container">
+          <p>
+            Arvin is very hardworking students. He was able to fulfill his
+            position as secretary at ACES where he plays a big role in S.Y. 2024
+            admin.
+          </p>
+          <p>Engr. Jay Ilagan</p>
+          <p>Program Head</p>
+        </div>
+        <div class="card-container">
+          <p>
+            Arvin is very dedicated students. He is proactive and has initiative
+            on finishing tasks.
+          </p>
+          <p>Eleazar Magsino</p>
+          <p>Principal III</p>
+        </div>
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>
